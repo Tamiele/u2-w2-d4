@@ -1,0 +1,12 @@
+@import "./scss/functions";
+@import "./scss/variables";
+
+$bg-Hero: #7153fa;
+
+$new-theme-colors: (
+  "bg-Hero": $bg-Hero,
+);
+
+$theme-colors: map-merge($theme-colors, $new-theme-colors);
+
+@import "./scss/bootstrap.scss";
